@@ -1,0 +1,11 @@
+docker-compose up
+
+datsource dan mysql olustu buradan direk container baglanabliyoruz super docker icine ve shemas admi gozukuyor
+
+docker-compose exec backend sh
+python maange.py startapp products   //bu termina startapp ile aynı sanırım product ı bu komutla normal terminaldende products
+olusturdum BURADAN YAZIYORUM BNDAN SNRA HERSEYI EXTRA TERMINAL ILE
+python manage.py makemigraitons
+python manage.py migrate
+python manage.py
+#Buradan sonra pycharm database den gozlemle
